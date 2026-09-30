@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   template: `
     <img
-      [src]="'/photos/logo_sf.png'"
+      [src]="'photos/logo_sf.png'"
       [style.width.px]="size"
       [style.height.px]="size"
       alt="Panda"
