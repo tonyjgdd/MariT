@@ -1,0 +1,163 @@
+:host {
+  --rose: #e0577d;
+  --rose-dark: #b93a60;
+  --cream: #fff7f4;
+  --ink: #4a2c3a;
+  display: block;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'Quicksand', system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+html { scroll-behavior: smooth; }
+
+/* Navbar */
+.nav-glass {
+  background: rgba(255, 247, 244, 0.75);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 20px rgba(224, 87, 125, 0.12);
+}
+.brand-image {
+  height: 26px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.brand { font-family: 'Playfair Display', serif; font-weight: 700; color: var(--rose-dark); }
+.nav-links a { text-decoration: none; color: var(--ink); font-weight: 600; transition: color .2s; }
+.nav-links a:hover { color: var(--rose); }
+
+/* Portada */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(160deg, #ff9eb5 0%, #ff8fa3 40%, #ffb38a 100%);
+}
+.hero-content { position: relative; z-index: 2; padding-top: 60px; animation: rise 1s ease both; }
+.panda-float { animation: float 4s ease-in-out infinite; filter: drop-shadow(0 12px 18px rgba(0,0,0,.18)); }
+.eyebrow { letter-spacing: 3px; text-transform: uppercase; font-size: .85rem; margin: 1rem 0 0; opacity: .9; }
+.title {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: clamp(3rem, 12vw, 6rem);
+  margin: 0;
+  text-shadow: 0 4px 20px rgba(0,0,0,.15);
+}
+.subtitle { opacity: .95; }
+.days-badge {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: .7rem 1.6rem;
+  border-radius: 50px;
+  background: rgba(255,255,255,.25);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,.4);
+}
+.scroll-hint {
+  display: block; margin-top: 2rem; color: #fff; font-size: 1.8rem;
+  text-decoration: none; animation: bounce 2s infinite;
+}
+
+.heart {
+  position: absolute; bottom: -40px; color: rgba(255,255,255,.55);
+  animation: rise-heart linear infinite; z-index: 1; pointer-events: none;
+}
+
+/* Secciones */
+.section { scroll-margin-top: 70px; }
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 6vw, 2.8rem);
+  color: var(--rose-dark);
+}
+.section-sub { color: #8a6070; }
+
+/* Tarjetas con foto */
+.photo-card {
+  position: relative; display: block; width: 100%; height: 280px;
+  border: none; padding: 0; border-radius: 24px; overflow: hidden;
+  background: linear-gradient(135deg, #ff9eb5, #ffb38a);
+  box-shadow: 0 10px 30px rgba(224, 87, 125, .25);
+  transition: transform .3s, box-shadow .3s;
+  cursor: pointer; color: #fff; text-align: left;
+}
+.photo-card img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; transition: transform .6s;
+}
+.overlay-grad { position: absolute; inset: 0; background: linear-gradient(to top, rgba(60,15,30,.75), transparent 60%); }
+.photo-card-body { position: absolute; left: 0; right: 0; bottom: 0; padding: 1.2rem 1.4rem; }
+.photo-card-body .emoji { font-size: 1.8rem; }
+.photo-card-body h3 { font-family: 'Playfair Display', serif; font-size: 1.25rem; margin: .2rem 0; }
+.photo-card-body small { opacity: .85; }
+.photo-card:hover { transform: translateY(-6px) scale(1.01); box-shadow: 0 16px 38px rgba(224, 87, 125, .4); }
+.photo-card:hover img { transform: scale(1.08); }
+
+/* Meses */
+.month-card {
+  display: block; width: 100%; height: 100%; border: none; text-align: center;
+  padding: 1.4rem 1rem; border-radius: 20px; background: #fff; color: inherit;
+  box-shadow: 0 6px 20px rgba(224, 87, 125, .15);
+  transition: transform .25s, box-shadow .25s;
+}
+.month-card h3 { font-size: 1rem; font-weight: 700; margin: .5rem 0 .2rem; }
+.month-card small { color: #8a6070; }
+.lock-icon { font-size: 2.2rem; }
+.month-card:not(.locked):not(.forever):hover {
+  transform: translateY(-5px); box-shadow: 0 12px 28px rgba(224,87,125,.3); cursor: pointer;
+}
+.month-card:not(.locked):not(.forever) .lock-icon { animation: pop 1.6s ease-in-out infinite; }
+.month-card.locked { background: #f3e6ea; opacity: .8; cursor: not-allowed; }
+.month-card.locked .lock-icon { filter: grayscale(.4); }
+.month-card.forever { background: linear-gradient(135deg, #ffd1dc, #ffe6cc); }
+
+.footer { padding: 3rem 1rem; color: #8a6070; }
+
+/* Aparición al hacer scroll */
+.reveal { opacity: 0; transform: translateY(30px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: none; }
+
+/* Ventana */
+.overlay {
+  position: fixed; inset: 0; z-index: 1050; padding: 1rem;
+  background: rgba(60, 20, 35, .65); backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  animation: fade .25s;
+}
+.modal-card {
+  position: relative; background: #fffaf5; border-radius: 24px;
+  max-width: 560px; width: 100%; max-height: 90vh; overflow-y: auto;
+  animation: pop-in .35s cubic-bezier(.2,1.2,.4,1);
+}
+.close-btn {
+  position: absolute; top: 14px; right: 14px; z-index: 3;
+  background-color: rgba(255,255,255,.85); border-radius: 50%; padding: .6rem;
+}
+.modal-photo {
+  width: 100%;
+  max-height: 65vh;
+  object-fit: contain;
+  background: #f8e9ed;
+  display: block;
+}.modal-title-text { font-family: 'Playfair Display', serif; color: var(--rose-dark); text-align: center; }
+.letter-text { white-space: pre-line; line-height: 1.9; font-size: 1.05rem; }
+
+/* Animaciones */
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+@keyframes rise { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: none; } }
+@keyframes rise-heart { 0% { transform: translateY(0) rotate(0); opacity: 0; } 10% { opacity: 1; } 100% { transform: translateY(-115vh) rotate(40deg); opacity: 0; } }
+@keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+@keyframes pop { 0%,100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop-in { from { opacity: 0; transform: scale(.85) translateY(20px); } to { opacity: 1; transform: none; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  .reveal { opacity: 1; transform: none; }
+}
