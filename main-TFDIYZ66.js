@@ -10,17 +10,17 @@ No tienes que fingir que est\xE1s bien conmigo, nunca. Quiz\xE1 hice algo que te
 Respira hondo. Toma agua. Y recuerda que lo que sientes ahora es moment\xE1neo.
 Un d\xEDa dif\xEDcil no significa una vida dif\xEDcil.
 
-Yo no puedo quitarte la tristeza, pero puedo y quiero quedarme contigo mientras dura.
+Quiza no pueda quitarte la tristeza, pero puedo y quiero quedarme contigo mientras dura.
 Escr\xEDbeme o ll\xE1mame, aunque sea sin decir nada, por favor.
 Yo siempre estar\xE9 para ti porque somos un equipo y t\xFA eres mi prioridad.
 
-Eres m\xE1s fuerte de lo que crees, Mari. Muy resiliente y capaz; te admiro.
+Eres m\xE1s fuerte de lo que crees, Mari. Muy resiliente y capaz, te admiro.
 
-Te quiero mucho. Siempre.`,photo:et+"mes12.png"},{emoji:"\u{1F4AD}",title:"Para cuando me extra\xF1es",text:`Yo tambi\xE9n te extra\xF1o, mi princesa. Justo ahora, probablemente. Y hace 5 minutos, y ayer, y anteayer...
+Te quiero mucho. Siempre`,photo:et+"mes12.png"},{emoji:"\u{1F4AD}",title:"Para cuando me extra\xF1es",text:`Yo tambi\xE9n te extra\xF1o, mi princesa. Justo ahora, probablemente. Y hace 5 minutos, y ayer, y anteayer...
 En fin, todos los d\xEDas.
 
 Mientras no estoy, qu\xE9date con esto:
-\xB7 Cada vez que pienso en nuestro primer beso, sonr\xEDo solo.
+\xB7 Cada vez que pienso en nuestro primer beso, sonr\xEDo solo como un loco.
 \xB7 Muero por volver a dormir abrazados y sentir latir tu coraz\xF3n.
 \xB7 Extra\xF1o tu sonrisa, tus p\xF3mulos que me encantan, tus abrazos que me hacen sentir en paz y tus besos que me derriten.
 \xB7 Cada d\xEDa que pasa es un d\xEDa menos para volver a vernos.
@@ -31,12 +31,12 @@ hay alguien que est\xE1 pensando en ti y te extra\xF1a con la misma intensidad.
 Pronto nos veremos, mi ni\xF1a hermosa \u2764\uFE0F`,photo:et+"yoo.jpeg"},{emoji:"\u{1F602}",title:"Para cuando necesites re\xEDrte",text:`Prioridad: sacarte una sonrisa.
 
 1. Acu\xE9rdate de cuando, en todos los tours de Arequipa, me llamaban la atenci\xF3n por llegar tarde.
-2. Imagina mi cara cuando empezamos a hablar y me contaste de Cori: pens\xE9 que ya ten\xEDas una hija \u{1F602}.
+2. Imagina mi cara cuando empezamos a hablar y me contaste de Cori, pens\xE9 que ya ten\xEDas una hija \u{1F602}.
 3. Piensa en Canta y en c\xF3mo nos pelamos de fr\xEDo esa noche.
-4. O cuando, en Tambo, me pidieron mi DNI para saber si era mayor de edad; es que soy muy joven.
+4. O cuando, en Tambo, me pidieron mi DNI para saber si era mayor de edad, es que soy muy joven.
 5. En fin, recuerda cualquier momento juntos y s\xE9 que te habr\xE9 sacado una sonrisa.
 
-Si a\xFAn no sonr\xEDes, m\xE1ndame un mensaje y te enviar\xE9 los mejores stickers que tengo c:
+Si a\xFAn no sonr\xEDes, m\xE1ndame un mensaje yo vere como lo resuelvo c:
 
 Tu risa es mi sonido favorito. No lo olvides.`,photo:et+"reirr.jpg"},{emoji:"\u{1FAC2}",title:"Para cuando tengas un mal d\xEDa",text:`Ya s\xE9 que todo sali\xF3 mal hoy. Solo dame una se\xF1al de que fue as\xED y me tendr\xE1s a tu lado, abraz\xE1ndote.
 
