@@ -22,13 +22,13 @@ No tienes que fingir que estás bien conmigo, nunca. Quizá hice algo que te pus
 Respira hondo. Toma agua. Y recuerda que lo que sientes ahora es momentáneo.
 Un día difícil no significa una vida difícil.
 
-Yo no puedo quitarte la tristeza, pero puedo y quiero quedarme contigo mientras dura.
+Quiza no pueda quitarte la tristeza, pero puedo y quiero quedarme contigo mientras dura.
 Escríbeme o llámame, aunque sea sin decir nada, por favor.
 Yo siempre estaré para ti porque somos un equipo y tú eres mi prioridad.
 
-Eres más fuerte de lo que crees, Mari. Muy resiliente y capaz; te admiro.
+Eres más fuerte de lo que crees, Mari. Muy resiliente y capaz, te admiro.
 
-Te quiero mucho. Siempre.`,
+Te quiero mucho. Siempre`,
     photo: P + 'mes12.png',
   },
   {
@@ -38,7 +38,7 @@ Te quiero mucho. Siempre.`,
 En fin, todos los días.
 
 Mientras no estoy, quédate con esto:
-· Cada vez que pienso en nuestro primer beso, sonrío solo.
+· Cada vez que pienso en nuestro primer beso, sonrío solo como un loco.
 · Muero por volver a dormir abrazados y sentir latir tu corazón.
 · Extraño tu sonrisa, tus pómulos que me encantan, tus abrazos que me hacen sentir en paz y tus besos que me derriten.
 · Cada día que pasa es un día menos para volver a vernos.
@@ -55,12 +55,12 @@ Pronto nos veremos, mi niña hermosa ❤️`,
     text: `Prioridad: sacarte una sonrisa.
 
 1. Acuérdate de cuando, en todos los tours de Arequipa, me llamaban la atención por llegar tarde.
-2. Imagina mi cara cuando empezamos a hablar y me contaste de Cori: pensé que ya tenías una hija 😂.
+2. Imagina mi cara cuando empezamos a hablar y me contaste de Cori, pensé que ya tenías una hija 😂.
 3. Piensa en Canta y en cómo nos pelamos de frío esa noche.
-4. O cuando, en Tambo, me pidieron mi DNI para saber si era mayor de edad; es que soy muy joven.
+4. O cuando, en Tambo, me pidieron mi DNI para saber si era mayor de edad, es que soy muy joven.
 5. En fin, recuerda cualquier momento juntos y sé que te habré sacado una sonrisa.
 
-Si aún no sonríes, mándame un mensaje y te enviaré los mejores stickers que tengo c:
+Si aún no sonríes, mándame un mensaje yo vere como lo resuelvo c:
 
 Tu risa es mi sonido favorito. No lo olvides.`,
     photo: P + 'reirr.jpg',
